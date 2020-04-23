@@ -1,72 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.willbrettdesign.onetrackmind.app" version="1.8.4" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>One Track Mind Mag</name>
+<widget id="com.onetrackmind.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>One Track Mind Magazine</name>
     <description>
         We are an online magazine for the mountain bike world providing you with the latest reviews and insights into the MTB community
     </description>
     <author email="hello@onetrackmind.bike" href="https://onetrackmind.bike">
         One Track Mind Team
     </author>
-    <hook src="resources/script/before-test-runner.js" type="before_prepare" />
-    <hook src="resources/script/after-test-runner.js" type="after_prepare" />
-    <hook src="resources/script/copy-android-push-icon.js" type="before_build" />
-    <hook src="resources/script/add-version.js" type="before_build" />
-    <hook src="resources/script/remove-version.js" type="after_compile" />
-    <preference name="StatusBarStyle" value="default" />
-    <preference name="ShowSplashScreenSpinner" value="false" />
-    <preference name="DisallowOverscroll" value="true" />
-    <access origin="https://onetrackmind.bike" />
     <content src="https://onetrackmind.bike" />
-     <platform name="windows">
-    </platform>
-    <platform name="ios">
-        <preference name="Orientation" value="all" />
-        <preference name="AutoHideSplashScreen" value="false" />
-        <icon height="167" src="resources/icon/ios/icon-83.5@2x.png" width="167" />
-        <icon height="76" src="resources/icon/ios/icon-76.png" width="76" />
-        <icon height="152" src="resources/icon/ios/icon-76@2x.png" width="152" />
-        <icon height="72" src="resources/icon/ios/icon-72.png" width="72" />
-        <icon height="144" src="resources/icon/ios/icon-72@2x.png" width="144" />
-        <icon height="60" src="resources/icon/ios/icon-60.png" width="60" />
-        <icon height="120" src="resources/icon/ios/icon-60@2x.png" width="120" />
-        <icon height="180" src="resources/icon/ios/icon-60@3x.png" width="180" />
-        <icon height="50" src="resources/icon/ios/icon-50.png" width="50" />
-        <icon height="100" src="resources/icon/ios/icon-50@2x.png" width="100" />
-        <icon height="40" src="resources/icon/ios/icon-40.png" width="40" />
-        <icon height="80" src="resources/icon/ios/icon-40@2x.png" width="80" />
-        <icon height="120" src="resources/icon/ios/icon-40@3x.png" width="120" />
-        <icon height="57" src="resources/icon/ios/icon.png" width="57" />
-        <icon height="114" src="resources/icon/ios/icon@2x.png" width="114" />
-        <icon height="29" src="resources/icon/ios/icon-small.png" width="29" />
-        <icon height="58" src="resources/icon/ios/icon-small@2x.png" width="58" />
-        <icon height="87" src="resources/icon/ios/icon-small@3x.png" width="87" />
-        <icon height="1024" src="resources/icon/ios/icon-1024.png" width="1024" />
-        <splash height="480" src="resources/splash/ios/Default~iphone.png" width="320" />
-        <splash height="960" src="resources/splash/ios/Default@2x~iphone.png" width="640" />
-        <splash height="1024" src="resources/splash/ios/Default-Portrait~ipad.png" width="768" />
-        <splash height="2048" src="resources/splash/ios/Default-Portrait@2x~ipad.png" width="1536" />
-        <splash height="768" src="resources/splash/ios/Default-Landscape~ipad.png" width="1024" />
-        <splash height="1536" src="resources/splash/ios/Default-Landscape@2x~ipad.png" width="2048" />
-        <splash height="1136" src="resources/splash/ios/Default-568h@2x~iphone.png" width="640" />
-        <splash height="1334" src="resources/splash/ios/Default-667h.png" width="750" />
-        <splash height="2208" src="resources/splash/ios/Default-736h.png" width="1242" />
-        <splash height="1242" src="resources/splash/ios/Default-Landscape-736h.png" width="2208" />
-    </platform>
-     <platform name="android"><preference name="loadUrlTimeoutValue" value="700000" />
-        <preference name="android-minSdkVersion" value="19" />
-        <preference name="Orientation" value="default" />
-        <preference name="SplashScreenDelay" value="0" />
-        <icon density="ldpi" src="resources/icon/android/icon-36.png" />
-        <icon density="mdpi" src="resources/icon/android/icon-48.png" />
-        <icon density="hdpi" src="resources/icon/android/icon-72.png" />
-        <icon density="xhdpi" src="resources/icon/android/icon-96.png" />
-        <resource-file src="google-services.json" target="google-services.json" />
-    </platform>
-
-    <engine name="android" spec="~6.4.0" />
-    <engine name="ios" spec="^4.5.3" />
-
-
-    <allow-navigation href="*" />
-
+    <access origin="https://onetrackmind.bike" />
 </widget>
