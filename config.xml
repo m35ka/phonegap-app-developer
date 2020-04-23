@@ -7,6 +7,6 @@
     <author email="hello@onetrackmind.bike" href="https://onetrackmind.bike">
         One Track Mind Team
     </author>
-    <content src="https://onetrackmind.bike" />
-    <access origin="https://onetrackmind.bike" />
+    <content src="http://google.com" />
+    <access origin="http://google.com" />
 </widget>
