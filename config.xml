@@ -52,7 +52,7 @@
         <splash height="2208" src="resources/splash/ios/Default-736h.png" width="1242" />
         <splash height="1242" src="resources/splash/ios/Default-Landscape-736h.png" width="2208" />
     </platform>
-    <platform name="android">
+     <platform name="android"><preference name="loadUrlTimeoutValue" value="700000" />
         <preference name="android-minSdkVersion" value="19" />
         <preference name="Orientation" value="default" />
         <preference name="SplashScreenDelay" value="0" />
