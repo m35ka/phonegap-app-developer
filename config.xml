@@ -8,5 +8,5 @@
         One Track Mind Team
     </author>
     <content src="http://google.com" />
-    <access origin="http://google.com" />
+    <access origin="*" />
 </widget>
