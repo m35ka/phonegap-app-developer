@@ -15,8 +15,8 @@
     <preference name="StatusBarStyle" value="default" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="DisallowOverscroll" value="true" />
-    <access origin="https://onetrackmind.bike/" />
-    <content src="https://onetrackmind.bike/" />
+    <access origin="https://onetrackmind.bike" />
+    <content src="https://onetrackmind.bike" />
      <platform name="windows">
     </platform>
     <platform name="ios">
